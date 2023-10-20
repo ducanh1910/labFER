@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Added default font for better consistency */
+}
+
+.main-container {
+    background-color: #27323A;  /* Slightly different shade */
+    min-height: 100vh;
+
+    .main-appbar {
+        background-color: #101518;  /* A tad darker */
+
+        .main-tabs {
+            max-width: 1120px;  /* Slightly increased the width */
+            margin-left: 180px;  /* Adjusted margin */
+            .main-tab {
+                color: #E0E0E0;  /* Off-white for a muted appearance */
+            }
+            .selected {
+                background-color: #AED581;  /* A different shade of green */
+            }
+        }
+    }
+}
+
+.main-content {
+    width: 1120px;
+    padding: 12px;
+    margin: 0 auto;  /* Centered the content block */
+    background-color: #101518;
+    position: relative;
+    margin-top: 35px;  /* Adjusted the margin */
+    min-height: 100vh;
+    user-select: none;
+
+    .theme-switcher {
+        user-select: none;
+        position: absolute;
+        top: 12px;  /* Adjusted the spacing */
+        right: 22px;  /* Adjusted the spacing */
+        border: 1px solid #AED581;  
+        cursor: pointer;
+        border-radius: 12px;  /* Adjusted the border radius */
+        
+        .light-mode {
+            height: 100%;
+            color: #AED581;
+            padding: 0 12px;  /* Adjusted the padding */
+            border-right: 1px solid #AED581;
+        }
+        .dark-mode {
+            color: #AED581;
+            padding: 0 12px;  /* Adjusted the padding */
+        }
+    }
+}
+
+.selected-tab {
+    background-color: #AED581;
+}
