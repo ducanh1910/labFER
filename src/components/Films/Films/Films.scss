@@ -1,0 +1,33 @@
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.film-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.film-card:hover {
+    transform: scale(1.05);
+}
+
+.film-image {
+    width: 100%;
+    height: auto;
+}
+
+.film-title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.film-year, .film-nation {
+    font-size: 14px;
+}
