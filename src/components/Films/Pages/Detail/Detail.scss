@@ -1,0 +1,36 @@
+.movie-detail {
+    display: flex;
+    color: #f0f0f0;  /* Off-white for a subtle difference */
+    margin-top: 45px;
+
+    .details {
+        margin-left: 45px;
+        
+        .headline {
+            color: #a6e132;  /* Slightly different shade of green */
+            font-weight: 400;
+            font-size: 1.9rem;
+            padding-bottom: 25px;
+        }
+
+        .release,
+        .country {
+            padding-top: 25px;
+            color: #a6e132;
+
+            label {  /* Using label instead of span for a clearer context */
+                color: #f0f0f0;
+            }
+        }
+
+        .description {
+            max-width: 660px;
+            margin-top: 25px;
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: 400;
+            font-family: 'Trebuchet MS', Helvetica, sans-serif;  /* Adjusted the font stack */
+            opacity: 0.75;
+        }
+    }
+}
