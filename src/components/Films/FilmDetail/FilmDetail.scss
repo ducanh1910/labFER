@@ -1,0 +1,36 @@
+.movie-detail {
+    display: flex;
+    color: #f0f0f0;  /* A bit different than pure white */
+    margin-top: 35px;
+
+    .details {
+        margin-left: 45px;
+
+        .headline {
+            color: #a8e732;  /* Slightly different shade of green */
+            font-weight: 400;
+            font-size: 1.9rem;
+            padding-bottom: 15px;
+        }
+
+        .release,
+        .origin {
+            padding-top: 15px;
+            color: #a8e732; 
+
+            label {
+                color: #f0f0f0;
+            }
+        }
+
+        .description {
+            max-width: 655px;
+            margin-top: 25px;
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: 400;
+            font-family: 'Trebuchet MS', Helvetica, sans-serif;
+            opacity: 0.6;
+        }
+    }
+}
