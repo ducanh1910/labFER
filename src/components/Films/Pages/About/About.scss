@@ -1,0 +1,15 @@
+.text-section {
+    color: #f0f0f0;  /* A bit different than pure white */
+    margin-top: 45px;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;  /* Removed repeated sans-serif and added another font */
+    opacity: 0.75;
+}
+
+.picture {
+    width: 100%;
+    max-width: 100%;  /* Ensures the image doesn't overflow its container */
+    display: block;   /* Removes any unwanted space below the image */
+}
